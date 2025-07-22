@@ -20,7 +20,7 @@ I also built a custom mobile app in the past, which can integrate and pair speak
 
 ### Wiring diagram for the speaker prototype
 
-<img width="1760" height="1014" alt="image" src="https://github.com/user-attachments/assets/1c621f33-9654-4e18-9d37-58a0f77500ec" />
+<img width="1760" height="1014" alt="image" src="https://github.com/user-attachments/assets/c75b86b5-63e2-4b9d-b31b-84c9fc9f2aa1" />
 
 The black lines are generic wires, red and black lines are live + neutral wires and the purple lines are speaker wires connecting the speakers.
 Then there are connections for the LED's and touch sensors, which are a bit chaotic, but it's just a 5V rail for the touch sensors ran down (they need 5V to function) with a GND rail also for the touch sensors and the LED's. Then each LED is connected to an output pin of the RPI, so it's able to turn them on independently (right there will be a 150 Ohm resistor in series), and each touch sensor is also connected to an input pin of the RPI, so that it can read when the touch sensor is activated.
